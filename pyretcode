@@ -1,0 +1,12 @@
+redrectangle = rectangle(30, 50, "solid", "red")
+
+brownrectangle = rectangle(80, 90, "solid", "brown")
+
+greyline = rectangle(150, 50, "solid", "grey")
+
+
+
+belt = overlay(redrectangle, overlay(brownrectangle, greyline))
+
+belt
+
